@@ -1,0 +1,77 @@
+{
+    "contact": {
+        "location": "Chennai, Tamil Nadu, India",
+        "email": "naveen.mprn@gmail.com",
+        "phone": "+91 9445912411"
+    },
+    "social": [
+        {
+            "label": "Works",
+            "href": "https://drive.google.com/drive/folders/1OrCQ5UZqTgkrVw-PePY7D3KcydK3Cq06?usp=sharing"
+        },
+        {
+            "label": "Linkedin",
+            "href": "https://www.linkedin.com/in/naveen-kumar-m2411/"
+        },
+        {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/wander.speaks?igsi=MnFzZXM4b2llZzZx&utm_source=qr"
+        },
+        {
+            "label": "GitHub",
+            "href": "https://github.com/vam2411"
+        }
+    ],
+    "stack": {
+        "frontend": [
+            {
+                "name": "Premiere Pro",
+                "icon": "/stack/adobe premiere po.svg",
+                "featured": true
+            },
+            {
+                "name": "After Effetcs",
+                "icon": "/stack/after effetcs.svg",
+                "featured": true
+            },
+            {
+                "name": "DaVinci Resolve",
+                "icon": "/stack/DaVinci Resolve.svg",
+                "featured": true
+            },
+            {
+                "name": "Blender",
+                "icon": "/stack/blender.svg"
+            }
+        ],
+        "backend": [
+            {
+                "name": "Photoshop",
+                "icon": "/stack/adobe photoshop.svg"
+            },
+            {
+                "name": "Lightroom",
+                "icon": "/stack/Lightroom.svg"
+            },
+            {
+                "name": "illustrator",
+                "icon": "/stack/illustrator.svg",
+                "featured": true
+            }
+           
+        ],
+        "database": [
+            {
+                "name": "Canva",
+                "icon": "/stack/Canva.svg",
+                "featured": true
+            },
+            {
+                "name": "A.I Tools",
+                "icon": "/stack/AI Tools.svg",
+                "featured": true
+            }
+        ]
+    }
+}
+

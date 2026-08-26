@@ -1,0 +1,43 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "stack": "Tools",
+        "projects": "Edit Styles",
+        "roadmap": "Roadmap",
+        "contact": "Contact"
+    },
+    "title": {
+        "about": "About",
+        "stack": "Tools",
+        "projects": "Edit Styles",
+        "roadmap": "Roadmap",
+        "contact": "Contact"
+    },
+    "scrollDown": "Scroll",
+    "contactMe": "Contact Me",
+    "exploreProjects": "Edit Styles",
+    "readFullVersion": "Read Full Version",
+    "frontendStack": "Video Edit Softwares",
+    "backendStack": "Photo Edit Softwares",
+    "databaseStack": "Other Tools",
+    "projectsIntro": "A variety of *edit styles* — I *experimented* with and *mastered* them to provide the *best service*.",
+    "projectsScrollText": "Scroll to explore",
+    "projectsEndText": "End",
+    "roadmapDescription": "A roadmap where I share the experiences I've gained throughout my journey and the skills I've learned.",
+    "contactIntroText": "Let's connect to create more engaging content for social media and brands",
+    "sendEmail": "Send an Email",
+    "directLine": "Direct Line",
+    "allRightsReserved": "All rights reserved.",
+    "contactModalDescription": "Send me a message and I'll get back to you as soon as possible.",
+    "projectDetails": "Details about",
+    "aboutProject": "About the Style",
+    "technologies": "Technologies",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Sample",
+    "notFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "goHome": "Back to Home"
+    }
+}

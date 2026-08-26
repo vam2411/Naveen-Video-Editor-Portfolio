@@ -1,0 +1,82 @@
+{
+    "about": {
+        "intro": "An **engineer** who turned to a **more creative field.**",
+        "description": "*I’m a video editor * who loves learning new things and shipping real projects—focused on social media videos, brand content, and narrative edits, using simple, practical, and sustainable tools.",
+        "full": "I’m **Naveen**, a video editor from **Chennai** with a background in Computer Science and a curiosity that has always taken me beyond one field. \n\nWhile **engineering** taught me how to think, build, and solve problems, I found myself increasingly drawn towards the creative side of things. That curiosity eventually led me into video editing, content creation, and visual storytelling—and over the past three years, it has grown from something I experimented with into the work I genuinely enjoy doing. \n\nI’ve worked as a **freelancer** and spent a year as a **Lead Video Editor** in a digital marketing agency, working with different kinds of content, people, and creative requirements. Along the way, I’ve learned that good editing is not just about knowing software. It’s about understanding the idea behind the content, finding the right rhythm, knowing what to show and what not to show, and making something that holds attention. \n\nMy work goes beyond the editing timeline. I’m involved in **content ideation**, understanding how an idea can become a video, planning shots, handling cameras, and figuring out how to present something in a way that actually works for the audience. \n\nI work primarily with **Premiere Pro** and **After Effects**, along with DaVinci Resolve, Photoshop, Illustrator, Canva, and various AI-powered creative tools. I’m also comfortable with **camera handling** and **basic cinematography**, which helps me think about the final edit even before the footage reaches the timeline. \n\nAnd then there’s the other side of me. \n\nComing from a computer science background, I’ve also spent a lot of time exploring **web development** and **building things on my own**. I enjoy understanding how technology works, experimenting with new tools, and finding ways to make things more efficient. It’s a completely different space from video, but I like having both sides of me—the technical and the creative. \n\n**I’m someone who gets curious easily.** A new tool, a different style of editing, an interesting camera technique, a new technology, or simply an idea I haven’t tried before is usually enough to make me want to experiment with it. \n\nI’m still figuring things out, still learning, and still trying to **get better with every project**. \n\nBecause for me, **creativity isn’t limited to editing a video.** It’s about having an idea, figuring out how to bring it to life, and constantly finding a better way to do it."
+    },
+    "manifesto": [
+        "PRIORITIZE CLARITY",
+        "PACE WITH PURPOSE",
+        "RHYTHM OVER FLASH",
+        "STORY BEFORE EFFECTS",
+        "REFINE RELENTLESSLY",
+        "CRAFT SUBTLETY"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Event",
+            "description": "**Event-style** editing is about capturing the complete atmosphere and experience of an event and shaping it into an engaging visual story. \n\nIt can cover *inaugurations, shop openings, celebrations, corporate events, launches, and other special occasions*, bringing together key moments, people, interactions, details, and the overall energy of the event. \n\nThe style can range from straightforward event coverage to more creative storytelling, depending on the nature of the occasion. It also leaves room for adapting to current trends, experimenting with different visual approaches, pacing, transitions, music, and editing techniques. \n\nThe goal is to turn an entire event into a video that feels engaging, memorable, and representative of the experience.",
+            "image": "/projects/20260427093247885.jpg",
+            "repo": "https://drive.google.com/drive/folders/1Mjo8bbAkVUDrHwG4uMxiyZ7yRs26tzkk?usp=sharing"
+        },
+        {
+            "id": "2",
+            "title": "Model",
+            "description": "**Model-style** editing focuses on capturing the model, their presence, expressions, movements, and overall visual identity.\n\nIt can include *promotional videos, brand integrations, fashion content, model B-rolls, music videos, and other visual content centered around the model*. The edit adapts to whatever the model is doing, whether it is showcasing a product, performing, posing, walking, or simply being part of a visual sequence. \n\nThe style places emphasis on *visual composition, movement, pacing, music, transitions, and creating a strong visual presence*, allowing the model and the concept to remain the main focus of the video.",
+            "image": "/projects/20260427093247620.jpg",
+            "demo": "https://xkintaro.github.io/aether-js-documentation/en.html",
+            "repo": "https://drive.google.com/drive/folders/1vWDGcrPqQaGpizZunE-a5NgeydGPTxX0?usp=sharing"
+        },
+        {
+            "id": "3",
+            "title": "Wedding",
+            "description": "**Wedding and function-style** editing is about capturing the important moments, emotions, people, and atmosphere of a celebration and bringing them together into a meaningful visual story. \n\nIt covers *weddings, pre-wedding events, post-wedding celebrations, birthdays, engagements, receptions, and other family or cultural functions*. \n\nThe style focuses on preserving the memorable moments of the occasion while bringing together candid interactions, key rituals, emotions, details, and celebrations into a complete and engaging video.",
+            "image": "/projects/20260305210513749.jpg",
+            "repo": "https://drive.google.com/drive/folders/1tEM_cox1gOmG8UnpD0gVxSM2dG02SUrM?usp=sharing"
+        },
+        {
+            "id": "4",
+            "title": "Retention",
+            "description": "**Retention** editing is focused on keeping the viewer engaged while clearly communicating information through a person speaking, a voice-over, or a combination of both. \n\nThis style is commonly used for *educational content, informational videos, explainers, tutorials, and knowledge-based content*, where the message needs to be easy to understand while maintaining viewer attention. \n\nIt can include *supporting B-rolls, on-screen elements, text, graphics, animations, transitions, sound effects, visual cues, and other storytelling techniques* that support what is being explained. \n\nThe goal is to make information more engaging, easier to follow, and structured in a way that encourages the viewer to keep watching.",
+            "image": "/projects/20260305210513749.jpg",
+            "repo": "https://drive.google.com/drive/folders/1dUepD7L5oSh0Xms-JSehRI2N8qzxiRBo?usp=sharing"
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "Freelance Video Editor | \nJuly 2023 – May 2024",
+            "description": "•Created video content for businesses, brands, social media pages, and digital marketing campaigns.\n•Edited promotional videos, Instagram Reels, advertisements, and short-form social media content.\n•Worked independently with clients to understand creative requirements, incorporate feedback, and deliver projects within deadlines.",
+            "stack": [
+                "Software Navigation",
+                "Edit Flow",
+                "Understanding Industry"
+                
+
+            ]
+        },
+        {
+            "id": "02",
+            "year": "Lead Video Editor | \nMay 2024 – May 2025",
+            "description": "*Dozers Digital Marketing, Chennai, Tamil Nadu, India* \n •Led and managed a 5+ member video production team responsible for creating social media and digital marketing content. \n•Produced and supervised 600+ promotional reels, advertisements, and social media videos for 15+ clients. \n•Managed end-to-end video production workflows, from footage organization and editing to revisions and final delivery.",
+            "stack": [
+                "Communication",
+                "Team Collaboration",
+                "Client Handling",
+                "Leadership"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "Freelance Video Editor | \nJune 2025 – Present",
+            "description": "•Provide freelance video editing services for brands, businesses, social media creators, and digital marketing projects.\n•Create short-form promotional content, Instagram Reels, advertisements, and branded videos optimized for social media platforms.",
+            "stack": [
+                "Integrating A.I",
+                "Adapting Trends",
+                "Branding",
+                "Deadline Management"
+            ]
+        }
+    ]
+}
