@@ -2,7 +2,6 @@
 
 import { motion, useTransform, useScroll, useSpring } from "framer-motion";
 import React, { useRef, useState, useEffect } from "react";
-import Image from "next/image";
 import { useLanguage } from "@/providers/language-provider";
 import { useMediaQuery, BREAKPOINTS } from "@/hooks/use-media-query";
 import { BlurReveal } from "@/components/effects/blur-reveal";
@@ -196,17 +195,21 @@ const ProjectCard = React.memo(function ProjectCard({ project, onClick }: { proj
                 className="group relative w-full xl:w-[45vw] aspect-4/3 shrink-0 xl:mx-6 perspective-1000 cursor-pointer"
             >
                 <div className="relative w-full h-full overflow-hidden bg-muted border border-border/50 transition-all duration-700 ease-out group-hover:border-foreground/20">
-                    <div className="absolute inset-0 z-0">
-                        <Image
-                            src={project.image}
-                            alt={project.title}
-                            fill
-                            sizes="(max-width: 1280px) 100vw, 45vw"
-                            loading="lazy"
-                            className="object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000 grayscale group-hover:grayscale-0"
+                    {project.video ? (
+                        <video
+                            src={project.video}
+                            className="absolute inset-0 w-full h-full object-cover"
+                            muted
+                            loop
+                            playsInline
+                            onMouseEnter={(e) => (e.target as HTMLVideoElement).play()}
+                            onMouseLeave={(e) => {
+                                const v = e.target as HTMLVideoElement;
+                                v.pause();
+                                v.currentTime = 0;
+                            }}
                         />
-                        <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent" />
-                    </div>
+                    ) : null}
 
                     <div className="absolute inset-0 z-10 flex flex-col justify-between p-6 xl:p-12">
                         <div className="flex justify-between items-start">
