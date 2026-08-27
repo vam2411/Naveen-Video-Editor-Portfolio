@@ -201,13 +201,8 @@ const ProjectCard = React.memo(function ProjectCard({ project, onClick }: { proj
                             className="absolute inset-0 w-full h-full object-cover"
                             muted
                             loop
+                            autoPlay
                             playsInline
-                            onMouseEnter={(e) => (e.target as HTMLVideoElement).play()}
-                            onMouseLeave={(e) => {
-                                const v = e.target as HTMLVideoElement;
-                                v.pause();
-                                v.currentTime = 0;
-                            }}
                         />
                     ) : null}
 
