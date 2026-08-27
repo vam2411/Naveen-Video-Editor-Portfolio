@@ -27,7 +27,7 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
         <Dialog open={open} onOpenChange={onOpenChange}>
             <DialogContent
                 showCloseButton={true}
-                className="flex flex-col sm:max-w-[800px] w-[95vw] max-h-[90vh] p-0 gap-0 border-border/50 bg-background/95 backdrop-blur-xl shrink-0"
+                className="flex flex-col sm:max-w-[1100px] w-[95vw] max-h-[90vh] p-0 gap-0 border-border/50 bg-background/95 backdrop-blur-xl shrink-0"
             >
                 <DialogHeader className="sr-only">
                     <DialogTitle>{project.title}</DialogTitle>
@@ -36,20 +36,31 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
 
                 <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-primary/50 to-transparent z-10" />
 
-                <div className="overflow-y-auto w-full h-full flex-1" data-lenis-prevent="true">
+                <div className="overflow-y-auto w-full h-full flex-1 flex flex-col md:flex-row" data-lenis-prevent="true">
 
-                    <div className="relative w-full shrink-0">
+                    <div className="relative w-full md:w-1/2 shrink-0 flex items-center justify-center bg-secondary/30 p-4 sm:p-8">
                         {project.video ? (
                             <video
                                 src={project.video}
-                                className="w-full aspect-video object-cover"
-                                controls
+                                className="w-full aspect-video object-cover rounded-lg cursor-pointer outline-none select-none"
+                                loop
+                                autoPlay
+                                muted
                                 playsInline
+                                disablePictureInPicture
+                                controlsList="nodownload noremoteplayback"
+                                onClick={(e) => {
+                                    const v = e.target as HTMLVideoElement;
+                                    if (v.paused) v.play();
+                                    else v.pause();
+                                }}
                             />
                         ) : null}
+                    </div>
 
-                        <div className="p-6 sm:p-10 flex flex-col">
-                            <h2 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tighter text-foreground mb-2">
+                    <div className="w-full md:w-1/2 p-6 sm:p-10 flex flex-col gap-8">
+                        <div>
+                            <h2 className="text-3xl sm:text-5xl font-bold tracking-tighter text-foreground mb-2">
                                 {project.title}
                             </h2>
                             <div className="flex items-center gap-3 text-sm font-mono tracking-widest text-muted-foreground uppercase">
@@ -58,9 +69,7 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                                 <span>{project.year}</span>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="p-6 sm:p-10 flex flex-col gap-10">
                         <div>
                             <h3 className="text-sm tracking-widest text-muted-foreground uppercase mb-4">{dict.aboutProject}</h3>
                             <p className="text-lg text-foreground/80 leading-relaxed font-light">
@@ -111,7 +120,6 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                                 )}
                             </div>
                         )}
-
                     </div>
                 </div>
 

@@ -8,6 +8,7 @@ export function CustomCursor() {
     const isVisibleRef = useRef(false);
     const [isVisible, setIsVisible] = useState(false);
     const [isHovering, setIsHovering] = useState(false);
+    const [isOverVideo, setIsOverVideo] = useState(false);
     const [isEnabled, setIsEnabled] = useState(false);
 
     const cursorX = useMotionValue(-100);
@@ -46,6 +47,7 @@ export function CustomCursor() {
         const handleMouseOver = (e: MouseEvent) => {
             const target = e.target as HTMLElement;
             setIsHovering(isInteractive(target));
+            setIsOverVideo(target.tagName.toLowerCase() === "video" || target.closest("video") !== null);
         };
 
         const handleMouseLeave = () => {
@@ -81,7 +83,7 @@ export function CustomCursor() {
                 y: cursorYSpring,
                 translateX: "-50%",
                 translateY: "-50%",
-                opacity: isVisible ? 1 : 0,
+                opacity: isVisible && !isOverVideo ? 1 : 0,
                 zIndex: 999999,
             }}
         >
