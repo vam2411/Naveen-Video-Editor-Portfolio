@@ -194,7 +194,7 @@ const ProjectCard = React.memo(function ProjectCard({ project, onClick }: { proj
                 onClick={onClick}
                 className="group relative w-full xl:w-[45vw] aspect-4/3 shrink-0 xl:mx-6 perspective-1000 cursor-pointer"
             >
-                <div className="relative w-full h-full overflow-hidden bg-muted border border-border/50 transition-all duration-700 ease-out group-hover:border-foreground/20">
+                <div className="relative w-full h-full overflow-hidden bg-muted border border-border/50 transition-all duration-700 ease-out">
                     {project.video ? (
                         <video
                             src={project.video}
@@ -205,16 +205,17 @@ const ProjectCard = React.memo(function ProjectCard({ project, onClick }: { proj
                             playsInline
                         />
                     ) : null}
+                    <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent" />
 
                     <div className="absolute inset-0 z-10 flex flex-col justify-between p-6 xl:p-12">
                         <div className="flex justify-between items-start">
-                            <div className="overflow-hidden">
-                                <span className="block text-xs xl:text-sm font-mono tracking-widest text-muted-foreground uppercase transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 delay-100">
+                            <div>
+                                <span className="text-xs xl:text-sm font-mono tracking-widest text-muted-foreground uppercase">
                                     {project.category}
                                 </span>
                             </div>
-                            <div className="overflow-hidden">
-                                <span className="block text-xs xl:text-sm font-mono text-muted-foreground transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 delay-200">
+                            <div>
+                                <span className="text-xs xl:text-sm font-mono text-muted-foreground uppercase">
                                     {project.year}
                                 </span>
                             </div>
