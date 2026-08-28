@@ -209,16 +209,8 @@ const ProjectCard = React.memo(function ProjectCard({ project, onClick }: { proj
 
                     <div className="absolute inset-0 z-10 flex flex-col justify-between p-6 xl:p-12">
                         <div className="flex justify-between items-start">
-                            <div>
-                                <span className="text-xs xl:text-sm font-mono tracking-widest text-muted-foreground uppercase">
-                                    {project.category}
-                                </span>
-                            </div>
-                            <div>
-                                <span className="text-xs xl:text-sm font-mono text-muted-foreground uppercase">
-                                    {project.year}
-                                </span>
-                            </div>
+                            
+                           
                         </div>
 
                         <h3 className="absolute bottom-6 md:bottom-8 2xl:bottom-12 left-6 md:left-8 2xl:left-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-black tracking-tighter uppercase text-foreground opacity-10 group-hover:opacity-100 transition-opacity duration-500 delay-100 pointer-events-none">
