@@ -18,7 +18,7 @@
             "title": "Event",
             "description": "**Event-style** editing is about capturing the complete atmosphere and experience of an event and shaping it into an engaging visual story. \n\nIt can cover *inaugurations, shop openings, celebrations, corporate events, launches, and other special occasions*, bringing together key moments, people, interactions, details, and the overall energy of the event. \n\nThe style can range from straightforward event coverage to more creative storytelling, depending on the nature of the occasion. It also leaves room for adapting to current trends, experimenting with different visual approaches, pacing, transitions, music, and editing techniques. \n\nThe goal is to turn an entire event into a video that feels engaging, memorable, and representative of the experience.",
             "image": "/projects/20260427093247885.jpg",
-            "video": "/projects/121232.mp4",
+            "video": "/projects/event.mp4",
             "repo": "https://drive.google.com/drive/folders/1Mjo8bbAkVUDrHwG4uMxiyZ7yRs26tzkk?usp=sharing"
         },
         {
@@ -26,7 +26,7 @@
             "title": "Model",
             "description": "**Model-style** editing focuses on capturing the model, their presence, expressions, movements, and overall visual identity.\n\nIt can include *promotional videos, brand integrations, fashion content, model B-rolls, music videos, and other visual content centered around the model*. The edit adapts to whatever the model is doing, whether it is showcasing a product, performing, posing, walking, or simply being part of a visual sequence. \n\nThe style places emphasis on *visual composition, movement, pacing, music, transitions, and creating a strong visual presence*, allowing the model and the concept to remain the main focus of the video.",
             "image": "/projects/20260427093247620.jpg",
-            "video": "/projects/undirect end card.mp4",
+            "video": "/projects/model.mp4",
             "demo": "https://xkintaro.github.io/aether-js-documentation/en.html",
             "repo": "https://drive.google.com/drive/folders/1vWDGcrPqQaGpizZunE-a5NgeydGPTxX0?usp=sharing"
         },
@@ -35,7 +35,7 @@
             "title": "Wedding",
             "description": "**Wedding and function-style** editing is about capturing the important moments, emotions, people, and atmosphere of a celebration and bringing them together into a meaningful visual story. \n\nIt covers *weddings, pre-wedding events, post-wedding celebrations, birthdays, engagements, receptions, and other family or cultural functions*. \n\nThe style focuses on preserving the memorable moments of the occasion while bringing together candid interactions, key rituals, emotions, details, and celebrations into a complete and engaging video.",
             "image": "/projects/20260305210513749.jpg",
-            "video": "",
+            "video": "/projects/wedding.mp4",
             "repo": "https://drive.google.com/drive/folders/1tEM_cox1gOmG8UnpD0gVxSM2dG02SUrM?usp=sharing"
         },
         {
@@ -43,7 +43,7 @@
             "title": "Retention",
             "description": "**Retention** editing is focused on keeping the viewer engaged while clearly communicating information through a person speaking, a voice-over, or a combination of both. \n\nThis style is commonly used for *educational content, informational videos, explainers, tutorials, and knowledge-based content*, where the message needs to be easy to understand while maintaining viewer attention. \n\nIt can include *supporting B-rolls, on-screen elements, text, graphics, animations, transitions, sound effects, visual cues, and other storytelling techniques* that support what is being explained. \n\nThe goal is to make information more engaging, easier to follow, and structured in a way that encourages the viewer to keep watching.",
             "image": "/projects/20260305210513749.jpg",
-            "video": "",
+            "video": "/projects/retention.mp4",
             "repo": "https://drive.google.com/drive/folders/1dUepD7L5oSh0Xms-JSehRI2N8qzxiRBo?usp=sharing"
         }
     ],
