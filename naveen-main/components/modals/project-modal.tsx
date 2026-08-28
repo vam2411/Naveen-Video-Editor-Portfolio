@@ -63,11 +63,6 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                             <h2 className="text-3xl sm:text-5xl font-bold tracking-tighter text-foreground mb-2">
                                 {project.title}
                             </h2>
-                            <div className="flex items-center gap-3 text-sm font-mono tracking-widest text-muted-foreground uppercase">
-                                <span>{project.category}</span>
-                                <span className="w-1 h-1 rounded-full bg-border" />
-                                <span>{project.year}</span>
-                            </div>
                         </div>
 
                         <div>
